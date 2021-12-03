@@ -1,0 +1,19 @@
+.sauvetages{
+    width: 100vw;
+    min-height:100vh;
+    background: url("../../assets/ocean.png");
+    color : white;
+    padding: 5%;
+}
+
+h3{
+    color:white;
+}
+
+.sauvetage-card{
+
+    padding: 3%;
+    background: rgba(0,0,0,0.5);
+    margin: 2% 0%;
+
+}

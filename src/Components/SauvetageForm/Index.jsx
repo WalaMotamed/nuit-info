@@ -25,8 +25,6 @@ function SauvetageForm() {
 
 
 
- 
-
     return (
         <div className="sauvetage-form-container">
                 <Formik
@@ -51,7 +49,7 @@ function SauvetageForm() {
                 }
                 
 
-                axios.post('https://nuitinfoback.herokuapp.com/rescue',req)  
+                axios.post('https://nuitinfoback.herokuapp.com/rescues',req)  
                    .then(res => console.log(res.data))
                    .catch(err => console.error(err))
 
