@@ -1,0 +1,52 @@
+.sauvetage-form-container{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    background: url('../../assets/ocean.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sauvetage-form{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    color: white;
+   font-size: 1rem;
+    
+}
+
+.sauvetage-form > h3{
+    font-size: 2rem;
+    align-self: center;
+    color: white;
+}
+
+.form-cta{
+    float: right;
+    
+}
+
+.cta{
+  background-color: #053268;
+  border: none;
+  color: white;
+  width: 8vw;
+}
+
+.step{
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    margin: 0% 0.2vw;
+}
+
+.active{
+    transform: scale(1.3);
+    background: rgb(153, 153, 153);
+    border: 1px solid white;
+    cursor: pointer;
+}
